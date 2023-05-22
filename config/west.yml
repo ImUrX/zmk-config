@@ -6,7 +6,7 @@ manifest:
       url-base: https://github.com/Nicell/zmk
   projects:
     - name: zmk
-      remote: zmkfirmware
+      remote: nicell
       revision: nice-view-custom-screen
       import: app/west.yml
   self:
