@@ -3,7 +3,7 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
     - name: nicell
-      url-base: https://github.com/Nicell/zmk
+      url-base: https://github.com/Nicell
   projects:
     - name: zmk
       remote: nicell
