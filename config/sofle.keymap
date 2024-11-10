@@ -44,9 +44,9 @@
         game_layer {
             bindings = <
 &kp ESC      &trans  &trans  &trans  &trans  &trans                          &trans  &trans  &trans  &trans  &trans  &trans
-&kp TAB      &trans  &trans  &trans  &trans  &trans                          &trans  &trans  &trans  &trans  &trans  &trans
-&hold_shift  &trans  &trans  &trans  &trans  &trans                          &trans  &trans  &trans  &trans  &trans  &trans
-&kp LCTRL    &trans  &trans  &trans  &trans  &trans  &trans       &trans     &trans  &trans  &trans  &trans  &trans  &trans
+&kp TAB      &kp T   &kp Q   &kp W   &kp E   &kp R                           &trans  &trans  &trans  &trans  &trans  &trans
+&hold_shift  &kp G   &kp A   &kp S   &kp D   &kp F                           &trans  &trans  &trans  &trans  &trans  &trans
+&kp LCTRL    &kp B   &kp Z   &kp X   &kp C   &kp V   &trans       &trans     &trans  &trans  &trans  &trans  &trans  &trans
                      &trans  &trans  &tog 1  &trans  &kp SPACE    &kp ENTER  &trans  &trans  &trans  &trans
             >;
 
